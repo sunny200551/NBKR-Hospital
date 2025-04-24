@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBKR Hospitals - Your Trusted Healthcare</title>
+    <link rel="stylesheet" href="s.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>NBKR <span>Hospitals</span></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search Services or Doctors...">
+                <i class="fas fa-search"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#appointments" class="book-appointment-btn">Appointments</a></li>
+                    <li><a href="#my-appointments">My Appointments</a></li>
+                    <li><a href="#contact">Contact     </a></li>
+                    
+                </ul>
+            </nav>
+            <div class="chatbot-icon" id="chatbot-open-btn">
+                <i class="fas fa-robot"></i> Chat with Us
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to NBKR Hospitals</h1>
+                <p>Your trusted partner in healthcare, providing compassionate and cutting-edge medical services.</p>
+                <div class="hero-buttons">
+                    <a href="#appointments" class="btn btn-primary book-appointment-btn">Book Appointment</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Access Cards -->
+    <section class="quick-access">
+        <div class="container">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-calendar-check"></i></div>
+                <h3>Book Appointment</h3>
+                <p>Schedule your visit with our specialists.</p>
+                <a href="#appointments" class="card-link book-appointment-btn">Book Now</a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-user-md"></i></div>
+                <h3>Find a Doctor</h3>
+                <p>Explore our team of expert physicians.</p>
+                <a href="#about" class="card-link">Meet Our Team</a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-ambulance"></i></div>
+                <h3>Emergency Care</h3>
+                <p>24/7 emergency services for urgent needs.</p>
+                <a href="#services" class="card-link service-link" data-service="emergency">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About NBKR Hospitals</h2>
+                <p>Delivering world-class healthcare with compassion and innovation.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://i.pinimg.com/236x/a6/c8/ff/a6c8ff75394cdc9922e1578280489d6a.jpg" alt="Hospital Building">
+                </div>
+                <div class="about-text">
+                    <p>Founded in 1995, NBKR Hospitals has been a beacon of hope, offering comprehensive medical services with state-of-the-art facilities.</p>
+                    <h3>Our Mission</h3>
+                    <p>To provide accessible, high-quality healthcare to all, ensuring patient satisfaction and well-being.</p>
+                    <div class="mission-values">
+                        <div class="value">
+                            <i class="fas fa-heart"></i>
+                            <h4>Compassion</h4>
+                            <p>Caring for patients with empathy.</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-flask"></i>
+                            <h4>Innovation</h4>
+                            <p>Embracing cutting-edge technology.</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-users"></i>
+                            <h4>Community</h4>
+                            <p>Serving with integrity and trust.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h3>Our Expert Team</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://i.pinimg.com/474x/c1/e2/bd/c1e2bda65737aee4c0a9c0058aa3f112.jpg" alt="Doctor 1">
+                    <h4>Dr. Arun Kumar</h4>
+                    <p>Head of Pediatrics</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://i.pinimg.com/236x/6c/59/95/6c599523460f54ddeba81f3cd689ae04.jpg" alt="Doctor 2">
+                    <h4> Dr. Priya Singh</h4>
+                    <p>Chief of Cardiology</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://i.pinimg.com/236x/6c/59/95/6c599523460f54ddeba81f3cd689ae04.jpg" alt="Doctor 3">
+                    <h4>Dr. Meera Patel</h4>
+                    <p>Orthopedic Specialist</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://i.pinimg.com/474x/20/97/bc/2097bc2fed71d57b9003bd89b072182d.jpg" alt="Doctor 4">
+                    <h4>Dr. Rajesh Verma</h4>
+                    <p>Neurosurgeon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive medical care tailored to your needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="cardiology">
+                    <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Cardiology</h3>
+                    <p>Expert heart care and diagnostics.</p>
+                </div>
+                <div class="service-card" data-service="pediatrics">
+                    <div class="service-icon"><i class="fas fa-baby"></i></div>
+                    <h3>Pediatrics</h3>
+                    <p>Specialized care for children.</p>
+                </div>
+                <div class="service-card" data-service="orthopedics">
+                    <div class="service-icon"><i class="fas fa-bone"></i></div>
+                    <h3>Orthopedics</h3>
+                    <p>Bone and joint treatment.</p>
+                </div>
+                <div class="service-card" data-service="surgery">
+                    <div class="service-icon"><i class="fas fa-scalpel"></i></div>
+                    <h3>General Surgery</h3>
+                    <p>Advanced surgical procedures.</p>
+                </div>
+                <div class="service-card" data-service="emergency">
+                    <div class="service-icon"><i class="fas fa-ambulance"></i></div>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 urgent medical services.</p>
+                </div>
+                <div class="service-card" data-service="dermatology">
+                    <div class="service-icon"><i class="fas fa-hand-holding-medical"></i></div>
+                    <h3>Dermatology</h3>
+                    <p>Skin care and treatments.</p>
+                </div>
+                <div class="service-card" data-service="neurology">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Neurology</h3>
+                    <p>Brain and nerve disorder care.</p>
+                </div>
+                <div class="service-card" data-service="radiology">
+                    <div class="service-icon"><i class="fas fa-x-ray"></i></div>
+                    <h3>Radiology</h3>
+                    <p>Advanced imaging services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Patients Say</h2>
+                <p>Hear from those who trust us with their care.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"The care I received at NBKR Hospitals was exceptional. The staff was compassionate and professional."</p>
+                    <h4>Rahul Sharma</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Thanks to the cardiology team, I’m back to my active lifestyle. Highly recommend NBKR!"</p>
+                    <h4>Anita Rao</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"The pediatric department made my child feel at ease. Truly a caring environment."</p>
+                    <h4>Sumanth Reddy</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointments" id="appointments" style="display: none;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book an Appointment</h2>
+                <p>Schedule your visit with our specialists today.</p>
+            </div>
+            <div class="appointment-content">
+                <form id="appointment-form">
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="patient-name">Patient Name*</label>
+                            <input type="text" id="patient-name" name="patient-name" required>
+                        </div>
+                        <div class="form-group half">
+                            <label for="department">Department*</label>
+                            <select id="department" name="department" required>
+                                <option value="">Select Department</option>
+                                <option value="cardiology">Cardiology</option>
+                                <option value="pediatrics">Pediatrics</option>
+                                <option value="orthopedics">Orthopedics</option>
+                                <option value="surgery">General Surgery</option>
+                                <option value="emergency">Emergency Care</option>
+                                <option value="dermatology">Dermatology</option>
+                                <option value="neurology">Neurology</option>
+                                <option value="radiology">Radiology</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="doctor">Preferred Doctor</label>
+                            <input type="text" id="doctor" name="doctor" placeholder="Optional">
+                        </div>
+                        <div class="form-group half">
+                            <label for="appointment-date">Date*</label>
+                            <input type="date" id="appointment-date" name="appointment-date" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="appointment-time">Time*</label>
+                            <input type="time" id="appointment-time" name="appointment-time" required>
+                        </div>
+                        <div class="form-group half">
+                            <label for="phone">Phone Number*</label>
+                            <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Additional Notes</label>
+                        <textarea id="notes" name="notes" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Schedule Appointment</button>
+                </form>
+                <div class="appointment-info">
+                    <h3>Appointment Information</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Book online or call +91 1234 567 890.</li>
+                        <li><i class="fas fa-check-circle"></i> Same-day appointments available.</li>
+                        <li><i class="fas fa-check-circle"></i> Confirmations sent via email/SMS.</li>
+                    </ul>
+                    <div class="working-hours">
+                        <h3>Working Hours</h3>
+                        <div class="hours-item">
+                            <span>Monday - Friday</span>
+                            <span>8:00 AM - 8:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Saturday</span>
+                            <span>8:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sunday</span>
+                            <span>9:00 AM - 1:00 PM</span>
+                        </div>
+                        <div class="hours-item emergency">
+                            <span>Emergency Services</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Appointments Section -->
+    <section class="my-appointments" id="my-appointments">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Appointments</h2>
+                <p>View and manage your scheduled appointments.</p>
+            </div>
+            <div class="appointments-list" id="appointments-list">
+                <!-- Appointments will be dynamically inserted here -->
+            </div>
+            <div class="appointments-actions" style="text-align: center; margin-top: 20px;">
+                <button class="btn btn-secondary" id="clear-appointments-btn" style="display: none;">Clear All Appointments</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>We’re here to assist you. Reach out today!</p>
+            </div>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="contact-name" name="contact-name" placeholder=" " required>
+                        <label for="contact-name">Full Name*</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="contact-email" name="contact-email" placeholder=" " required>
+                        <label for="contact-email">Email Address*</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="contact-phone" name="contact-phone" placeholder=" " required>
+                        <label for="contact-phone">Phone Number*</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contact-message" name="contact-message" rows="5" placeholder=" " required></textarea>
+                        <label for="contact-message">Your Message*</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-details">
+                            <h4>Our Location</h4>
+                            <p>Vidyanagar, Tirupati District, Andhra Pradesh</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <div class="info-details">
+                            <h4>Phone Number</h4>
+                            <p>+91 1234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-details">
+                            <h4>Email Address</h4>
+                            <p>info@nbkrhospitals.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>NBKR Hospitals</h3>
+                    <p>Providing quality healthcare since 1995.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#appointments" class="book-appointment-btn">Appointments</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#" class="service-link" data-service="cardiology">Cardiology</a></li>
+                        <li><a href="#" class="service-link" data-service="pediatrics">Pediatrics</a></li>
+                        <li><a href="#" class="service-link" data-service="orthopedics">Orthopedics</a></li>
+                        <li><a href="#" class="service-link" data-service="emergency">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Vidyanagar, Tirupati District</p>
+                    <p><i class="fas fa-phone"></i> +91 1234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> info@nbkrhospitals.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 NBKR Hospitals. All Rights Reserved. | <span id="live-time"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header">
+            <h3><i class="fas fa-robot"></i> NBKR Assistant</h3>
+            <button id="chatbot-close-btn">×</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="chatbot-options">
+            <button class="option-btn" data-option="appointment">Book Appointment</button>
+            <button class="option-btn" data-option="timing">Hospital Timings</button>
+            <button class="option-btn" data-option="location">Location</button>
+            <button class="option-btn" data-option="departments">Departments</button>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input-field" placeholder="Type your message...">
+            <button id="chatbot-send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="modal" id="confirmation-modal">
+        <div class="modal-content">
+            <span class="close-modal">×</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Success!</h2>
+            <p id="modal-message">Your form has been submitted successfully.</p>
+            <button class="btn btn-primary" id="modal-ok-btn">OK</button>
+        </div>
+    </div>
+
+    <!-- Service Details Modal -->
+    <div class="modal" id="service-modal">
+        <div class="modal-content">
+            <span class="close-modal">×</span>
+            <h2 id="service-title"></h2>
+            <div id="service-details"></div>
+            <button class="btn btn-primary book-appointment-btn">Book Appointment</button>
+        </div>
+    </div>
+
+    <script src="s.js"></script>
+</body>
+</html>
